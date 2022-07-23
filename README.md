@@ -6,7 +6,7 @@ Esta es una practica con HTML y CSS usando flexbox
 
 **Diego Sierra**
 
-* [LinkedIn](www.linkedin.com/in/dondiegopro)
+* [LinkedIn](https://www.linkedin.com/in/dondiegopro)
 
 ## Ver ejemplo en vivo
 
