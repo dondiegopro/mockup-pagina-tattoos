@@ -1,6 +1,6 @@
 ## Descripcion
 
-Esta es una practica con HTML y CSS usando flexbox
+Esta maquetación una practica realizada con html y css usando flex-box, es responsive.
 
 ## Autor
 
