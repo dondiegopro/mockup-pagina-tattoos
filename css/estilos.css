@@ -130,23 +130,17 @@
     z-index: 1;
        
  }
-
- 
-
  .servicios article:nth-child(1) div img {
      width: 100%;
      height: 100%;
      object-fit: cover;
      transition: all .3s;
+     z-index: 1;
 
  }
  .servicios article:nth-child(1) div img:hover{
     transform: scale(1.3) rotate(8deg);
  }
-
-
-
-
  .servicios article:nth-child(1) div h2{
     font-family: var(--fontUno);
     color: white;
@@ -228,6 +222,9 @@
 .staff article:nth-child(2) div{
     width: 25%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     overflow: hidden;
     
@@ -244,8 +241,7 @@
 }
 .staff article:nth-child(2) div h2{
     z-index: 2;
-    position: absolute;
-    left: 35%;
+    position: absolute;    
     bottom: 20px;
     color: white;
     font-size: 2rem;
@@ -321,9 +317,8 @@ footer{
         width: 50%;
         
     }
-    .servicios article:nth-child(1) div h2,
-    .servicios article:nth-child(1) div a{
-        left:15%;
+    .servicios article:nth-child(1) div h2{
+        left:auto;
     }
 
     .servicios article:nth-child(2) div{
@@ -338,9 +333,7 @@ footer{
         flex-wrap: wrap;
         width: 50%;       
     }
-    .staff article:nth-child(2) div h2{
-        left: 20%;
-    }
+    
 
 }
 
@@ -364,10 +357,7 @@ footer{
         width: 100%;
         
     }
-    .servicios article:nth-child(1) div h2,
-    .servicios article:nth-child(1) div a{
-        left:30%;
-    }
+    
         
     
     .servicios article:nth-child(2) div:nth-child(2){
